@@ -1,0 +1,29 @@
+.TextArea {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.TextArea label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.TextArea textarea {
+  appearance: none;
+  border: 1px solid black;
+  font: inherit;
+  padding: 9px 12px;
+}
+
+.TextArea textarea:focus {
+  box-shadow: 0 0 0 1px black;
+  outline: 2px solid orange;
+  outline-offset: 3px;
+}
+
+.TextArea textarea:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

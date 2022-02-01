@@ -1,0 +1,32 @@
+.Dropdown {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.Dropdown label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.Dropdown select {
+  appearance: none;
+  border: 1px solid black;
+  font: inherit;
+  padding: 9px 12px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgYXJpYS1sYWJlbD0iY2hldnJvbi1kb3duIGljb24iIGNsYXNzPSJjc3MtMTRsamZwMyI+CiAgICA8cGF0aCBkPSJNMTcuNyAyMi42TC45IDQuMnY2LjdMMTYgMjcuOCAzMS4xIDExVjQuM0wxNC4zIDIyLjZoMy40em0wIDBMLjkgNC4ydjYuN0wxNiAyNy44IDMxLjEgMTFWNC4zTDE0LjMgMjIuNmgzLjR6Ij48L3BhdGg+Cjwvc3ZnPg==");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 16px;
+}
+
+.Dropdown select:focus {
+  box-shadow: 0 0 0 1px black;
+  outline: 2px solid orange;
+  outline-offset: 3px;
+}
+
+.Dropdown select:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

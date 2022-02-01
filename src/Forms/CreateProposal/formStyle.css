@@ -1,0 +1,21 @@
+form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+label {
+  margin-top: 20px;
+}
+
+form button[type="submit"] {
+  margin: 80px 0 0 0;
+  float: right;
+}
+
+label {
+    font-weight: bold;
+}
+
+#price-per-episode {
+    margin-top: 20px;
+    padding: 9px 12px;
+}
